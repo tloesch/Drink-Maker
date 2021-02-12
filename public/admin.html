@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="style/admin.css"/>
+    </head>
+    <body>
+        <div class="container">
+            <h1>
+                <button type="button" id="addSlotToPinRow" class="btn btn-success">+</button>
+                Slot - Pin Associations
+            </h1>
+            <form id="slotToPinAssociations"></form>
+            <br>
+
+
+            <h1>
+                <button type="button" id="addDrinkNameToSlotRow" class="btn btn-success">+</button>
+                Drinknames - Slot Associations
+            </h1>
+            <form id="drinkNameToSlotAssociations"></form>
+            <br>
+
+            <h1>
+                <button type="button" id="addRecipeRow" class="btn btn-success">+</button>
+                Recipes
+            </h1>
+            <form id="recipes">
+
+
+
+
+            </form>
+
+            <br>
+            <br>
+            <button type="button" onclick="save()" class="btn btn-primary" style="width:100%">Save</button>
+
+        </div>
+
+
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/admin.js"></script>
+    </body>
+</html>

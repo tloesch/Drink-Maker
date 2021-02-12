@@ -1,0 +1,32 @@
+body {
+    margin: 7px;
+    background-color:#32373a;
+    color: lightgrey;
+}
+.col {
+    margin: 5px;
+}
+
+.row {
+    margin: 5px;
+}
+h1 {
+    margin: 10px;
+}
+h3 {
+    margin: 10px;
+}
+
+h1 > button {
+    margin-bottom: 10px;
+}
+
+div.recipe-row > div.col-2 > button {
+    margin-top: 5px;
+}
+
+.recipe-row {
+    border: solid;
+    color: #494949;
+    background: darkgrey;
+}
